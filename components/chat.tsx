@@ -66,7 +66,7 @@ export function Chat() {
         <div className="container max-w-4xl mx-auto px-4 py-6">
           {messages.length === 0 ? (
             <div className="flex items-center justify-center h-full text-muted-foreground">
-              <p>Start a conversation...</p>
+              <p>Welcome to NĀMA Yucatán</p>
             </div>
           ) : (
             <>
