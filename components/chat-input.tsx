@@ -32,8 +32,8 @@ export function ChatInput({
   };
 
   return (
-    <div className="bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex items-end gap-2 p-4 max-w-4xl mx-auto">
+    <div className="bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 pb-safe">
+      <div className="container flex items-end gap-2 px-4 pt-4 pb-6 max-w-4xl mx-auto">
         <textarea
           value={input}
           onChange={(e) => setInput(e.target.value)}
