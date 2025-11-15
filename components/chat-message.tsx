@@ -58,7 +58,10 @@ export function ChatMessage({ message }: ChatMessageProps) {
                   );
                 },
                 p(props) {
-                  return <p className="mb-2 last:mb-0">{props.children}</p>;
+                  return <p className="mb-4 last:mb-0 leading-relaxed">{props.children}</p>;
+                },
+                br() {
+                  return <br className="block mb-2" />;
                 },
               } as Components
             }
